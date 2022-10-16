@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: solid lightgray 2px;
+    border-radius: 5px;
+    padding:20px;
+    margin: 16px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic1 {
+    height: 200px;
+    width: 300px;
+    
+}
+
+@media (min-width: 36em) {
+    .item {
+        flex: 0;
+    }
+}
